@@ -31,7 +31,7 @@ body {
     transform: translate(-50%, -50%);
     border-radius: 50%;
     background-color: black;
-    box-shadow: 0px 0px 20px 0px white;
+    box-shadow: 0px 0px 10px 0px white;
     cursor: pointer;
     overflow: hidden;
     transition: 0.3s;
@@ -117,7 +117,7 @@ body {
     background: black;
     margin: 10px;
     border-radius: 30%;
-    box-shadow: 0px 0px 20px 0px white;
+    box-shadow: 0px 0px 10px 0px white;
     color: white;
     transition: 0.3s linear;
 }
@@ -125,6 +125,7 @@ body {
 .btn i {
     line-height: 50px;
     font-size: 26px;
+    color: white;
 }
 
 .line {
@@ -141,11 +142,11 @@ a:hover {
 }
 
 .btn:hover {
-    box-shadow: 0px 0px 40px 0px red;
+    box-shadow: 0px 0px 10px 0px red;
 }
 
 .arrow:hover {
-    box-shadow: 0px 0px 40px 0px red;
+    box-shadow: 0px 0px 10px 0px red;
     background-color: black;
 }
 
@@ -402,6 +403,15 @@ aside.show {
     margin: 20px 0;
 }
 
+.cursor {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.cursor .active {
+    opacity: 1;
+}
+
 @media (orientation: landscape) and (min-width: 568px) {
 
     .about p {
@@ -458,8 +468,8 @@ aside.show {
     width: 80%;
     text-align: center;
     color: #ddd;
-    box-shadow: 0px 0px 20px 0px white;
-    border: 3px solid white;
+    box-shadow: 0px 0px 10px 0px white;
+    border: 2px solid white;
     margin: 20px;
     transition: 0.3s;
 }
@@ -470,9 +480,10 @@ aside.show {
     height: 70px;
     transform: rotate(45deg);
     margin: 25px 0 20px 0;
-    border: 3px solid white;
+    border: 2px solid white;
     color: white;
     transition: 0.3s;
+    box-shadow: 0px 0px 10px 0px white;
 }
 
 .offer-icon i {
@@ -493,15 +504,14 @@ aside.show {
 }
 
 .offer-box:hover {
-    color: red;
-    border: 3px solid red;
-    box-shadow: 0px 0px 20px 0px red;
+    border: 2px solid red;
+    box-shadow: 0px 0px 10px 0px red;
 }
 
 .offer-box:hover .offer-icon {
     color: red;
-    border: 3px solid red;
-    box-shadow: 0px 0px 20px 0px red;
+    border: 2px solid red;
+    box-shadow: 0px 0px 10px 0px red;
 }
 
 @media (orientation: landscape) and (min-width: 568px) {
@@ -577,8 +587,8 @@ aside.show {
     margin: 0 auto 20px;
     height: 130px;
     width: 230px;
-    border: 3px solid white;
-    box-shadow: 0px 0px 40px 0px white;
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px 0px white;
     transition: 0.3s linear;
     cursor: pointer;
 }
@@ -606,8 +616,8 @@ span {
 
 
 .box-webside:hover {
-    box-shadow: 0px 0px 40px 0px gold;
-    border: 3px solid gold;
+    box-shadow: 0px 0px 20px 0px gold;
+    border: 2px solid gold;
 }
 
 @media (orientation: landscape) and (min-width: 568px) {
@@ -678,7 +688,7 @@ span {
     height: 70px;
     border: 3px solid white;
     background-color: white;
-    box-shadow: 0px 0px 20px 0px white;
+    box-shadow: 0px 0px 10px 0px white;
     border-radius: 20px;
     margin: 0 10px;
 }
